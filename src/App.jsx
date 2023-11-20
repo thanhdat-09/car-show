@@ -17,7 +17,7 @@ const App = () => {
       <Canvas shadows>
         <OrbitControls target={[0, 0.35, 0]} maxPolarAngle={1.45} />
 
-        <PerspectiveCamera makeDefault fov={50} position={[3, 2, 5]} />
+        <PerspectiveCamera makeDefault fov={50} position={[3, 2, 4]} />
 
         <color args={[0, 0, 0]} attach="background" />
 
