@@ -24,8 +24,8 @@ function Car() {
 
     let group = gltf.scene.children[0].children[0].children[0];
     group.children[2].rotation.z = t * 2;
-    group.children[3].rotation.z = t * 2;
-    group.children[4].rotation.z = t * 2;
+    group.children[3].rotation.z = -t * 2;
+    group.children[4].rotation.z = -t * 2;
     group.children[7].rotation.z = t * 2;
   });
 
